@@ -32,7 +32,6 @@ public class TestCases1to6 {
         //locate Log in button and click
         WebElement loginButton=driver.findElement(By.id("_submit"));
         loginButton.click();
-        Thread.sleep(8000);
     }
     @Test
     public void testCase01() throws InterruptedException {
@@ -50,7 +49,7 @@ public class TestCases1to6 {
         Actions actions=new Actions(driver);
         actions.moveToElement(activities).clickAndHold().moveToElement(calendarEvents).release().build().perform();
 
-        Thread.sleep(8000);
+       
 
 
 
