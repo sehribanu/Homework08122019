@@ -49,7 +49,7 @@ public class TestCases1to6 {
         Actions actions=new Actions(driver);
         actions.moveToElement(activities).clickAndHold().moveToElement(calendarEvents).release().build().perform();
 
-       
+       System.out.println("Hello from github")
 
 
 
